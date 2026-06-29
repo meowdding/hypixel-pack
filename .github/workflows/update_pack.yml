@@ -1,0 +1,60 @@
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        type: string
+        description: The url of the pack
+        required: true
+      alpha:
+        type: boolean
+        description: Whether the url was sourced from alpha or not
+        required: true
+      version:
+        type: string
+        description: The game version the pack is for
+        required: true
+
+name: Update pack
+jobs:
+  update_pack:
+    name: Update pack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone Repo
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.BOT_TOKEN }}
+
+      - name: Set branch name
+        run: |
+          BRANCH="${{ case(inputs.alpha, 'alpha/', '') }}${{ inputs.version }}"
+          git fetch
+          git switch "$BRANCH" 2>/dev/null || git switch --orphan "$BRANCH"
+
+      - name: Get version changes
+        run: git pull
+        continue-on-error: true
+
+      - name: Delete current repo
+        run: find -maxdepth 1 -not -name .git -not -name . -print0 | xargs -0 rm -rf
+
+      - name: Download Pack
+        run: curl "${{ inputs.url }}" -o pack.zip
+
+      - name: Unpack pack
+        run: unzip -o pack.zip
+
+      - name: Remove zip
+        run: rm pack.zip
+
+      - name: Format json
+        run: find . \( -name '*.json' -o -name '*.mcmeta' \) -exec sh -c 'printf "formatting %s\n" "$1"; tmp=$(mktemp); jq -sa . "$1" > "$tmp" && mv "$tmp" "$1"' _ '{}' \;
+
+      - name: Commit and push changes
+        continue-on-error: true
+        run: |
+          git config --global user.email "meowtomation@users.noreply.github.com"
+          git config --global user.name "meowtomation"
+          git add .
+          git commit -m "Update Resourcepack"
+          git push --set-upstream origin "${{ case(inputs.alpha, 'alpha/', '') }}${{ inputs.version }}"

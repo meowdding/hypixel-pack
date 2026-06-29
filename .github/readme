@@ -1,0 +1,10 @@
+This project is in no way affiliated, nor endorsed by Hypixel.
+
+You must follow their rules when using any assets hosted in any branch of this repo, with "main" being the only exception as it doesn't contain any.
+
+This repo is only intended to allow for easy access to unpacked versions and to keep track of any changes made between versions.
+
+You can find the pack for a specific Minecraft version in the branch for that version, additionally, there are alpha/<version> branches which contain the latest alpha changes.
+
+26.2 - Stable: https://github.com/meowdding/hypixel-pack/tree/26.2
+26.2 - Alpha: https://github.com/meowdding/hypixel-pack/tree/alpha/26.2
