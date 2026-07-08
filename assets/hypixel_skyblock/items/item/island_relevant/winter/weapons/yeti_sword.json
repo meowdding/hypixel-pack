@@ -1,26 +1,8 @@
 [
   {
     "model": {
-      "type": "minecraft:select",
-      "property": "minecraft:display_context",
-      "cases": [
-        {
-          "model": {
-            "type": "minecraft:model",
-            "model": "hypixel_skyblock:item/island_relevant/winter/weapons/yeti_sword"
-          },
-          "when": [
-            "gui",
-            "ground",
-            "fixed",
-            "on_shelf"
-          ]
-        }
-      ],
-      "fallback": {
-        "type": "minecraft:model",
-        "model": "hypixel_skyblock:item/island_relevant/winter/weapons/yeti_sword_in_hand"
-      }
+      "type": "minecraft:model",
+      "model": "hypixel_skyblock:item/island_relevant/winter/weapons/yeti_sword"
     }
   }
 ]
