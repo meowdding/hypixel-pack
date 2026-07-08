@@ -12,7 +12,7 @@
           "\ue010\ue011\ue012\ue013\ue014\ue015\ue016\ue017",
           "\ue018\ue019\ue01a\ue01b\ue01c\ue01d\ue01e\ue01f",
           "\ue020\ue021\ue022\ue023\ue024\ue025\ue026\ue027",
-          "\ue028\ue029\ue02a\ue02b\ue02c\ue02d\uffff\uffff"
+          "\ue028\ue029\ue02a\ue02b\ue02c\ue02d\u0000\u0000"
         ]
       },
       {
@@ -33,8 +33,8 @@
         "height": 7,
         "chars": [
           "\ue060\ue061\ue062\ue063",
-          "\ue064\ue065\ue066\ue067",
-          "\ue068\uffff\uffff\uffff"
+          "\u2714\u2716\ue066\ue067",
+          "\ue068\u0000\u0000\u0000"
         ]
       },
       {
@@ -46,7 +46,7 @@
           "\ue070\ue071\ue072\ue073\ue074\ue075",
           "\ue076\ue077\ue078\ue079\ue07a\ue07b",
           "\ue07c\ue07d\ue07e\ue07f\ue080\ue081",
-          "\ue082\ue083\ue084\ue085\ue086\uffff"
+          "\ue082\ue083\ue084\ue085\ue086\u0000"
         ]
       },
       {
