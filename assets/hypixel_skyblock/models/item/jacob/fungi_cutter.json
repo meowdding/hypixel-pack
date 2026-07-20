@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/iron_hoe",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/jacob/fungi_cutter"
-    }
+{
+  "parent": "item/iron_hoe",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/jacob/fungi_cutter"
   }
-]
+}
