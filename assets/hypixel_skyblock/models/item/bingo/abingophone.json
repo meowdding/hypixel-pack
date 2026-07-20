@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/paper",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/bingo/abingophone"
-    }
+{
+  "parent": "item/paper",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/bingo/abingophone"
   }
-]
+}

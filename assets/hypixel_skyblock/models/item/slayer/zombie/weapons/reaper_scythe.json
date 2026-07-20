@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/diamond_hoe",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/slayer/zombie/weapons/reaper_scythe"
-    }
+{
+  "parent": "item/diamond_hoe",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/slayer/zombie/weapons/reaper_scythe"
   }
-]
+}

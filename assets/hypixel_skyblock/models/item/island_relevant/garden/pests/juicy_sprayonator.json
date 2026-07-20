@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/stick",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/island_relevant/garden/pests/juicy_sprayonator"
-    }
+{
+  "parent": "item/stick",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/island_relevant/garden/pests/juicy_sprayonator"
   }
-]
+}

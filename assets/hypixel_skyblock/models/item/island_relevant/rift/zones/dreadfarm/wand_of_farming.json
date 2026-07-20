@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/stick",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/island_relevant/rift/zones/dreadfarm/wand_of_farming"
-    }
+{
+  "parent": "item/stick",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/island_relevant/rift/zones/dreadfarm/wand_of_farming"
   }
-]
+}
