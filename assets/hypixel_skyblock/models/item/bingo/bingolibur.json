@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/golden_sword",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/bingo/bingolibur"
-    }
+{
+  "parent": "item/golden_sword",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/bingo/bingolibur"
   }
-]
+}

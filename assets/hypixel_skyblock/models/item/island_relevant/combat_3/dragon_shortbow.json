@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/bow",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/island_relevant/combat_3/dragon_shortbow"
-    }
+{
+  "parent": "item/bow",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/island_relevant/combat_3/dragon_shortbow"
   }
-]
+}

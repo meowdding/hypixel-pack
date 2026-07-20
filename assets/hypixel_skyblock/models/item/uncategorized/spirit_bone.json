@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/bone",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/uncategorized/spirit_bone"
-    }
+{
+  "parent": "item/bone",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/uncategorized/spirit_bone"
   }
-]
+}

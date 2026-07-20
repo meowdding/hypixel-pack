@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/paper",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/island_relevant/dungeons/spirit_leap"
-    }
+{
+  "parent": "item/paper",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/island_relevant/dungeons/spirit_leap"
   }
-]
+}

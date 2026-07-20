@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/stick",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/broken/broken_wand"
-    }
+{
+  "parent": "item/stick",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/broken/broken_wand"
   }
-]
+}

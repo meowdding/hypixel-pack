@@ -1,8 +1,6 @@
-[
-  {
-    "model": {
-      "type": "minecraft:model",
-      "model": "hypixel_skyblock:item/uncategorized/midas_sword_fragged"
-    }
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "hypixel_skyblock:item/uncategorized/midas_sword_fragged"
   }
-]
+}
