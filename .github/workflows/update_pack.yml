@@ -48,7 +48,7 @@ jobs:
         run: rm pack.zip
 
       - name: Format json
-        run: find . \( -name '*.json' -o -name '*.mcmeta' \) -exec sh -c 'printf "formatting %s\n" "$1"; tmp=$(mktemp); jq -sa . "$1" > "$tmp" && mv "$tmp" "$1"' _ '{}' \;
+        run: find . \( -name '*.json' -o -name '*.mcmeta' \) -exec sh -c 'printf "formatting %s\n" "$1"; tmp=$(mktemp); jq -a . "$1" > "$tmp" && mv "$tmp" "$1"' _ '{}' \;
 
       - name: Commit and push changes
         continue-on-error: true
