@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/paper",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/uncategorized/protector_dragon_fragment"
-    }
+{
+  "parent": "item/paper",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/uncategorized/protector_dragon_fragment"
   }
-]
+}

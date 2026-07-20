@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/paper",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/uncategorized/magic_in_a_hurry"
-    }
+{
+  "parent": "item/paper",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/uncategorized/magic_in_a_hurry"
   }
-]
+}

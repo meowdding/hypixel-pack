@@ -1,8 +1,6 @@
-[
-  {
-    "model": {
-      "type": "minecraft:model",
-      "model": "hypixel_skyblock:item/uncategorized/kada_lead"
-    }
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "hypixel_skyblock:item/uncategorized/kada_lead"
   }
-]
+}

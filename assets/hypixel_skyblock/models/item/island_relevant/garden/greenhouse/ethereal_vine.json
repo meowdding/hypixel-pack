@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/vine",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/island_relevant/garden/greenhouse/ethereal_vine"
-    }
+{
+  "parent": "item/vine",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/island_relevant/garden/greenhouse/ethereal_vine"
   }
-]
+}

@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/wooden_axe",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/uncategorized/basic_chicken_axe"
-    }
+{
+  "parent": "item/wooden_axe",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/uncategorized/basic_chicken_axe"
   }
-]
+}
