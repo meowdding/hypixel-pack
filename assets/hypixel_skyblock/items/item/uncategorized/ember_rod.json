@@ -1,8 +1,6 @@
-[
-  {
-    "model": {
-      "type": "minecraft:model",
-      "model": "hypixel_skyblock:item/uncategorized/ember_rod"
-    }
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "hypixel_skyblock:item/uncategorized/ember_rod"
   }
-]
+}

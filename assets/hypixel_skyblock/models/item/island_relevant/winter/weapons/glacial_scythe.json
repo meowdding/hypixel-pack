@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/diamond_hoe",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/island_relevant/winter/weapons/glacial_scythe"
-    }
+{
+  "parent": "item/diamond_hoe",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/island_relevant/winter/weapons/glacial_scythe"
   }
-]
+}

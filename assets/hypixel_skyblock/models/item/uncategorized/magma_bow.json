@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/bow",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/uncategorized/magma_bow"
-    }
+{
+  "parent": "item/bow",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/uncategorized/magma_bow"
   }
-]
+}

@@ -1,8 +1,6 @@
-[
-  {
-    "model": {
-      "type": "minecraft:model",
-      "model": "hypixel_skyblock:item/uncategorized/digested_mushrooms"
-    }
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "hypixel_skyblock:item/uncategorized/digested_mushrooms"
   }
-]
+}

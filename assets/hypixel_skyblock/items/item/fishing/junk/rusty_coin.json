@@ -1,8 +1,6 @@
-[
-  {
-    "model": {
-      "type": "minecraft:model",
-      "model": "hypixel_skyblock:item/fishing/junk/rusty_coin"
-    }
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "hypixel_skyblock:item/fishing/junk/rusty_coin"
   }
-]
+}

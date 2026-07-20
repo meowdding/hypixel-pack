@@ -1,8 +1,6 @@
-[
-  {
-    "parent": "item/stick",
-    "textures": {
-      "layer0": "hypixel_skyblock:item/uncategorized/wand_of_strength"
-    }
+{
+  "parent": "item/stick",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/uncategorized/wand_of_strength"
   }
-]
+}
