@@ -1,0 +1,66 @@
+{
+  "model": {
+    "type": "condition",
+    "property": "component",
+    "predicate": "custom_data",
+    "value": "{upgraded_rarity:COMMON}",
+    "on_true": {
+      "type": "model",
+      "model": "hypixel_skyblock:item/island_relevant/safari/safari_belt_common"
+    },
+    "on_false": {
+      "type": "condition",
+      "property": "component",
+      "predicate": "custom_data",
+      "value": "{upgraded_rarity:UNCOMMON}",
+      "on_true": {
+        "type": "model",
+        "model": "hypixel_skyblock:item/island_relevant/safari/safari_belt_uncommon"
+      },
+      "on_false": {
+        "type": "condition",
+        "property": "component",
+        "predicate": "custom_data",
+        "value": "{upgraded_rarity:RARE}",
+        "on_true": {
+          "type": "model",
+          "model": "hypixel_skyblock:item/island_relevant/safari/safari_belt_rare"
+        },
+        "on_false": {
+          "type": "condition",
+          "property": "component",
+          "predicate": "custom_data",
+          "value": "{upgraded_rarity:EPIC}",
+          "on_true": {
+            "type": "model",
+            "model": "hypixel_skyblock:item/island_relevant/safari/safari_belt_epic"
+          },
+          "on_false": {
+            "type": "condition",
+            "property": "component",
+            "predicate": "custom_data",
+            "value": "{upgraded_rarity:LEGENDARY}",
+            "on_true": {
+              "type": "model",
+              "model": "hypixel_skyblock:item/island_relevant/safari/safari_belt_legendary"
+            },
+            "on_false": {
+              "type": "condition",
+              "property": "component",
+              "predicate": "custom_data",
+              "value": "{upgraded_rarity:MYTHIC}",
+              "on_true": {
+                "type": "model",
+                "model": "hypixel_skyblock:item/island_relevant/safari/safari_belt_mythic"
+              },
+              "on_false": {
+                "type": "model",
+                "model": "hypixel_skyblock:item/island_relevant/safari/safari_belt_common"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
