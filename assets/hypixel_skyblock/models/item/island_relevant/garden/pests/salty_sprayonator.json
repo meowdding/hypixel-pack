@@ -1,0 +1,6 @@
+{
+  "parent": "item/stick",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/island_relevant/garden/pests/salty_sprayonator"
+  }
+}
