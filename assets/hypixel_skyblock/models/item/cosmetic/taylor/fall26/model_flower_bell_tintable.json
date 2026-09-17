@@ -1,0 +1,6 @@
+{
+  "parent": "hypixel_skyblock:item/cosmetic/taylor/fall26/flower_bell",
+  "textures": {
+    "0": "hypixel_skyblock:item/cosmetic/taylor/fall26/model_flower_bell_tintable"
+  }
+}
