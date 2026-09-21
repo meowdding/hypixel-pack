@@ -20,15 +20,6 @@
         4,
         13.5
       ],
-      "rotation": {
-        "angle": 0,
-        "axis": "y",
-        "origin": [
-          7,
-          0,
-          7
-        ]
-      },
       "faces": {
         "north": {
           "uv": [
@@ -373,15 +364,6 @@
         9,
         12.5
       ],
-      "rotation": {
-        "angle": 0,
-        "axis": "y",
-        "origin": [
-          7,
-          5,
-          7
-        ]
-      },
       "faces": {
         "north": {
           "uv": [
@@ -441,15 +423,6 @@
         11,
         11.5
       ],
-      "rotation": {
-        "angle": 0,
-        "axis": "y",
-        "origin": [
-          7,
-          5,
-          7
-        ]
-      },
       "faces": {
         "north": {
           "uv": [
@@ -510,15 +483,6 @@
         4,
         3.5
       ],
-      "rotation": {
-        "angle": 0,
-        "axis": "y",
-        "origin": [
-          7,
-          5,
-          7
-        ]
-      },
       "faces": {
         "north": {
           "uv": [
@@ -579,15 +543,6 @@
         9,
         4.5
       ],
-      "rotation": {
-        "angle": 0,
-        "axis": "y",
-        "origin": [
-          7,
-          5,
-          7
-        ]
-      },
       "faces": {
         "north": {
           "uv": [
