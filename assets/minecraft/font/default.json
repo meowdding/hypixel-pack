@@ -57,6 +57,18 @@
       "chars": [
         "\u12de"
       ]
+    },
+    {
+      "type": "bitmap",
+      "file": "hypixel_skyblock:gui/weather.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [
+        "\ue090\ue091\ue092\ue093\ue094",
+        "\ue095\ue096\ue097\ue098\ue099",
+        "\ue09a\ue09b\ue09c\ue09d\ue09e",
+        "\ue09f\ue100\ue101\u0000\u0000"
+      ]
     }
   ]
 }
