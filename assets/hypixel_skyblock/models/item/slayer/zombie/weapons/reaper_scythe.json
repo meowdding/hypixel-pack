@@ -1,5 +1,5 @@
 {
-  "parent": "item/diamond_hoe",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/slayer/zombie/weapons/reaper_scythe"
   }

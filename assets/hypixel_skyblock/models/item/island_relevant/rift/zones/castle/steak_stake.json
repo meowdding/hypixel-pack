@@ -1,5 +1,5 @@
 {
-  "parent": "item/copper_spear",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/island_relevant/rift/zones/castle/steak_stake"
   }

@@ -1,5 +1,5 @@
 {
-  "parent": "item/feather",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/fishing/misc/fried_feather"
   }

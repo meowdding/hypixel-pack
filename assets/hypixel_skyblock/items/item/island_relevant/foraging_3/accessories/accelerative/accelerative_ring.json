@@ -1,6 +1,6 @@
 {
   "model": {
-    "type": "minecraft:model",
+    "type": "model",
     "model": "hypixel_skyblock:item/island_relevant/foraging_3/accessories/accelerative/accelerative_ring"
   }
 }
