@@ -1,6 +1,6 @@
 {
   "model": {
-    "type": "minecraft:model",
+    "type": "model",
     "model": "hypixel_skyblock:item/island_relevant/mining_3/forge/omelettes/blue_cheese_goblin_omelette"
   }
 }

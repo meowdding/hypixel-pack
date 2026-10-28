@@ -1,5 +1,5 @@
 {
-  "parent": "item/wooden_axe",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "hypixel_skyblock:item/island_relevant/foraging_2/axes/seriously_damaged_axe"
   }

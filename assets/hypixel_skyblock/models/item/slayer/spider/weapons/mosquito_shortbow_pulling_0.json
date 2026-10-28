@@ -1,5 +1,5 @@
 {
-  "parent": "item/bow_pulling_0",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/slayer/spider/weapons/mosquito_shortbow_pulling_0"
   }

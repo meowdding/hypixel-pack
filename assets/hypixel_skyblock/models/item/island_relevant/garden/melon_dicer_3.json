@@ -1,5 +1,5 @@
 {
-  "parent": "item/iron_axe",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "hypixel_skyblock:item/island_relevant/garden/melon_dicer_3"
   }

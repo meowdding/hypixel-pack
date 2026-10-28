@@ -1,5 +1,5 @@
 {
-  "parent": "item/paper",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/island_relevant/combat_3/equipment/ender_belt"
   }

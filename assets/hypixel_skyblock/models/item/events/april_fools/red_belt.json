@@ -1,5 +1,5 @@
 {
-  "parent": "item/paper",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/events/april_fools/red_belt"
   }

@@ -1,5 +1,5 @@
 {
-  "parent": "item/iron_hoe",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "hypixel_skyblock:item/uncategorized/hoe_of_no_tilling"
   }
