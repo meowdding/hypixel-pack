@@ -1,11 +1,11 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "property": "minecraft:display_context",
+    "type": "select",
+    "property": "display_context",
     "cases": [
       {
         "model": {
-          "type": "minecraft:model",
+          "type": "model",
           "model": "hypixel_skyblock:item/great_spook/great_spook_staff"
         },
         "when": [
@@ -17,7 +17,7 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
+      "type": "model",
       "model": "hypixel_skyblock:item/great_spook/great_spook_staff_in_hand"
     }
   }

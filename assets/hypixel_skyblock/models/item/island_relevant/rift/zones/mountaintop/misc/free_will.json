@@ -1,5 +1,5 @@
 {
-  "parent": "item/blaze_powder",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/island_relevant/rift/zones/mountaintop/misc/free_will"
   }

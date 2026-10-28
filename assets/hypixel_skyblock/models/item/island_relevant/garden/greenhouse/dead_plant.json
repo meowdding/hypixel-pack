@@ -1,5 +1,5 @@
 {
-  "parent": "item/dead_bush",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/island_relevant/garden/greenhouse/dead_plant"
   }

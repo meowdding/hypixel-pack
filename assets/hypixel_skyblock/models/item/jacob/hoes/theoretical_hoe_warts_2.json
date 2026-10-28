@@ -1,5 +1,5 @@
 {
-  "parent": "item/iron_hoe",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "hypixel_skyblock:item/jacob/hoes/theoretical_hoe_warts_2"
   }

@@ -1,5 +1,5 @@
 {
-  "parent": "item/wooden_axe",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "hypixel_skyblock:item/uncategorized/basic_chicken_axe"
   }

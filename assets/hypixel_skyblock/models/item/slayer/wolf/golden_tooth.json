@@ -1,5 +1,5 @@
 {
-  "parent": "item/gold_nugget",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/slayer/wolf/golden_tooth"
   }
