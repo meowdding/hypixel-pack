@@ -1,5 +1,5 @@
 {
-  "parent": "item/painting",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/island_relevant/rift/zones/mountaintop/misc/postcard"
   }

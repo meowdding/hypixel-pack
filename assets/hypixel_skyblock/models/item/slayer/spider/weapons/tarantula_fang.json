@@ -1,5 +1,5 @@
 {
-  "parent": "item/stone_sword",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "hypixel_skyblock:item/slayer/spider/weapons/tarantula_fang"
   }

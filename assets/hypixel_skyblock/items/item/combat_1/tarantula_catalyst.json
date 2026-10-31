@@ -1,6 +1,6 @@
 {
   "model": {
-    "type": "minecraft:model",
+    "type": "model",
     "model": "hypixel_skyblock:item/combat_1/tarantula_catalyst"
   }
 }
