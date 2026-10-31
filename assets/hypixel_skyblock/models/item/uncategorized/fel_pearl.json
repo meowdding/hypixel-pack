@@ -1,5 +1,5 @@
 {
-  "parent": "item/ender_pearl",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/uncategorized/fel_pearl"
   }

@@ -1,5 +1,5 @@
 {
-  "parent": "item/stick",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "hypixel_skyblock:item/uncategorized/fire_freeze_staff_in_hand"
   },

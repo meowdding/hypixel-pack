@@ -1,5 +1,5 @@
 {
-  "parent": "item/bow_pulling_1",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/uncategorized/artisanal_shortbow_pulling_1"
   }

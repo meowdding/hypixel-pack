@@ -1,5 +1,5 @@
 {
-  "parent": "item/ghast_tear",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/uncategorized/silver_fang"
   }

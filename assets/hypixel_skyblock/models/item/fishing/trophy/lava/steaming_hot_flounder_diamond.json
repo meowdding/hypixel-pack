@@ -1,5 +1,5 @@
 {
-  "parent": "item/diamond",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/fishing/trophy/lava/steaming_hot_flounder_diamond"
   }

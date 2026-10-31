@@ -1,5 +1,5 @@
 {
-  "parent": "item/paper",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/abiphones/flip_plus/abiphone_flip_plus_flower"
   }

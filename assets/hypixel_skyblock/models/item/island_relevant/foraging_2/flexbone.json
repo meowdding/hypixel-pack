@@ -1,5 +1,5 @@
 {
-  "parent": "item/bone",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "hypixel_skyblock:item/island_relevant/foraging_2/flexbone"
   }

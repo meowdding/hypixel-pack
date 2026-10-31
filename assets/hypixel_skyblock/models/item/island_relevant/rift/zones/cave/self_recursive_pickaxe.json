@@ -1,5 +1,5 @@
 {
-  "parent": "item/diamond_pickaxe",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "hypixel_skyblock:item/island_relevant/rift/zones/cave/self_recursive_pickaxe"
   }
