@@ -1,6 +1,6 @@
 {
   "model": {
-    "type": "minecraft:model",
+    "type": "model",
     "model": "hypixel_skyblock:item/broken/broken_shovel"
   }
 }

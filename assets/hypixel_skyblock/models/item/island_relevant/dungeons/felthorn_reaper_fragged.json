@@ -1,5 +1,5 @@
 {
-  "parent": "item/iron_sword",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/island_relevant/dungeons/felthorn_reaper_fragged"
   }

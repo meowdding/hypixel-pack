@@ -1,5 +1,5 @@
 {
-  "parent": "item/paper",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/fishing/trophy/lava/obfuscated_fish_1_silver"
   }

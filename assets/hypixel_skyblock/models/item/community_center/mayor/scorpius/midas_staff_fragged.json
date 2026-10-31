@@ -1,5 +1,5 @@
 {
-  "parent": "item/stick",
+  "parent": "item/generated",
   "textures": {
     "layer0": "hypixel_skyblock:item/community_center/mayor/scorpius/midas_staff_fragged"
   }

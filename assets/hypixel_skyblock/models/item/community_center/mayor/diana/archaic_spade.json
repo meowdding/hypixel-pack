@@ -1,5 +1,5 @@
 {
-  "parent": "item/stone_shovel",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "hypixel_skyblock:item/community_center/mayor/diana/archaic_spade"
   }

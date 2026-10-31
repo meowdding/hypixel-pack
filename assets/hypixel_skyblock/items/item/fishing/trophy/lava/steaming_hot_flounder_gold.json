@@ -1,6 +1,6 @@
 {
   "model": {
-    "type": "minecraft:model",
+    "type": "model",
     "model": "hypixel_skyblock:item/fishing/trophy/lava/steaming_hot_flounder_gold"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "item/shears",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "hypixel_skyblock:item/slayer/enderman/crafts/null_blade"
   }

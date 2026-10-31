@@ -1,6 +1,6 @@
 {
   "model": {
-    "type": "minecraft:model",
+    "type": "model",
     "model": "hypixel_skyblock:item/abiphones/flip_plus/abiphone_flip_plus_lunar"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "item/wooden_sword",
+  "parent": "item/handheld",
   "textures": {
     "layer0": "hypixel_skyblock:item/community_center/mayor/diana/sword_of_revelations"
   }

@@ -1,6 +1,6 @@
 {
   "model": {
-    "type": "minecraft:model",
+    "type": "model",
     "model": "hypixel_skyblock:item/slayer/blaze/arrows/bundle_of_magma_arrows"
   }
 }
