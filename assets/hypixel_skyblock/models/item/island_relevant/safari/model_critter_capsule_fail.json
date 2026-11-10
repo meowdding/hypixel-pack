@@ -360,6 +360,8 @@
         9,
         12.5
       ],
+      "shade": false,
+      "light_emission": 15,
       "faces": {
         "north": {
           "uv": [
@@ -419,6 +421,8 @@
         11,
         11.5
       ],
+      "shade": false,
+      "light_emission": 15,
       "faces": {
         "north": {
           "uv": [
@@ -479,6 +483,8 @@
         4,
         3.5
       ],
+      "shade": false,
+      "light_emission": 15,
       "faces": {
         "north": {
           "uv": [
@@ -539,6 +545,8 @@
         9,
         4.5
       ],
+      "shade": false,
+      "light_emission": 15,
       "faces": {
         "north": {
           "uv": [
