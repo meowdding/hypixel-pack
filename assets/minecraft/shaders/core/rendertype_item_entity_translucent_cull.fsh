@@ -1,6 +1,6 @@
 #version 330
 
-#moj_import <shared_data_ids.glsl>
+#moj_import <emissives.glsl>
 
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
@@ -15,19 +15,16 @@ in vec2 texCoord1;
 
 out vec4 fragColor;
 
+in vec4 emissiveTint;
+
 void main() {
     vec4 sampledColor = texture(Sampler0, texCoord0);
-    vec4 color = sampledColor * vertexColor * ColorModulator;
+    float emissiveOpacity = getEmissiveOpacity(sampledColor.a);
+    vec4 color = sampledColor;
+    color.a = emissiveOpacity >= 0.0 ? emissiveOpacity : sampledColor.a;
+    color *= vertexColor * ColorModulator;
 
-    // Emissive textures
-    if (shouldApplyEmissives(sampledColor.a)) {
-        color = vec4(sampledColor.rgb, 1.0);
-    }
-
-    // 50% Opaque Emissive textures
-    if (shouldApplyHalfOpaqueEmissives(sampledColor.a)) {
-        color = vec4(sampledColor.rgb, 0.5);
-    }
+    color = applyEmissiveColor(color, sampledColor, emissiveTint * ColorModulator, emissiveOpacity);
 
     if (color.a < 0.1) {
         discard;
