@@ -1,6 +1,6 @@
 #version 330
 
-#moj_import <shared_data_ids.glsl>
+#moj_import <emissives.glsl>
 
 #moj_import <minecraft:fog.glsl>
 #moj_import <minecraft:dynamictransforms.glsl>
@@ -16,9 +16,13 @@ in vec2 texCoord0;
 
 out vec4 fragColor;
 
+in vec4 emissiveTint;
+
 void main() {
     vec4 sampledColor = texture(Sampler0, texCoord0);
+    float emissiveOpacity = getEmissiveOpacity(sampledColor.a);
     vec4 color = sampledColor;
+    color.a = emissiveOpacity >= 0.0 ? emissiveOpacity : sampledColor.a;
 #ifdef ALPHA_CUTOUT
     if (color.a < ALPHA_CUTOUT) {
         discard;
@@ -26,17 +30,10 @@ void main() {
 #endif
 
     color *= vertexColor * ColorModulator;
+    color = applyEmissiveColor(color, sampledColor, emissiveTint * ColorModulator, emissiveOpacity);
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
-    color *= lightMapColor;
-
-    // Emissive textures
-    if (shouldApplyEmissives(sampledColor.a)) {
-        color = vec4(sampledColor.rgb, 1.0);
-    }
-
-    // 50% Opaque Emissive textures
-    if (shouldApplyHalfOpaqueEmissives(sampledColor.a)) {
-        color = vec4(sampledColor.rgb, 0.5);
+    if (emissiveOpacity < 0.0) {
+        color *= lightMapColor;
     }
 
     fragColor = apply_fog(color, sphericalVertexDistance, cylindricalVertexDistance, FogEnvironmentalStart, FogEnvironmentalEnd, FogRenderDistanceStart, FogRenderDistanceEnd, FogColor);
