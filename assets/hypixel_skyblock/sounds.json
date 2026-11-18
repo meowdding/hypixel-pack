@@ -40,5 +40,19 @@
         "name": "hypixel_skyblock:music/torrhus_canyon"
       }
     ]
+  },
+  "mob.wolf_howl1": {
+    "sounds": [
+      {
+        "name": "hypixel_skyblock:mob/wolf_howl1"
+      }
+    ]
+  },
+  "mob.wolf_howl2": {
+    "sounds": [
+      {
+        "name": "hypixel_skyblock:mob/wolf_howl2"
+      }
+    ]
   }
 }
