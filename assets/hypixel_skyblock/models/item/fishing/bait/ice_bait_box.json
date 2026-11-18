@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hypixel_skyblock:item/fishing/bait/ice_bait_box"
+  }
+}
